@@ -1,3 +1,4 @@
+
 insert into users(id, active, password, username) values
 (1, true, '$2a$06$iXoAnuMeJmE9dDIUmqBmveoBz1OduBO0QeWn/J1WR4BgiXwu.JFr.', 'test1'),
 (2, true, '$2a$06$iXoAnuMeJmE9dDIUmqBmveoBz1OduBO0QeWn/J1WR4BgiXwu.JFr.', 'test2');

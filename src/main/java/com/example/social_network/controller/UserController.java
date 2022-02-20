@@ -1,8 +1,9 @@
-package com.example.graduation_project.controller;
+package com.example.social_network.controller;
 
-import com.example.graduation_project.entity.Role;
-import com.example.graduation_project.entity.User;
-import com.example.graduation_project.service.UserService;
+import com.example.social_network.entity.Role;
+
+import com.example.social_network.entity.User;
+import com.example.social_network.service.UserService;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.crypto.password.PasswordEncoder;

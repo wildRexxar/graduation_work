@@ -1,7 +1,7 @@
-package com.example.graduation_project.controller;
+package com.example.social_network.controller;
 
-import com.example.graduation_project.entity.User;
-import com.example.graduation_project.service.UserService;
+import com.example.social_network.entity.User;
+import com.example.social_network.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

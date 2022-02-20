@@ -1,8 +1,8 @@
-package com.example.graduation_project.controller;
+package com.example.social_network.controller;
 
-import com.example.graduation_project.entity.Message;
-import com.example.graduation_project.entity.User;
-import com.example.graduation_project.service.MessageService;
+import com.example.social_network.entity.Message;
+import com.example.social_network.entity.User;
+import com.example.social_network.service.MessageService;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

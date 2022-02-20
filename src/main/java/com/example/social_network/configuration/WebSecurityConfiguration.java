@@ -1,6 +1,6 @@
-package com.example.graduation_project.configuration;
+package com.example.social_network.configuration;
 
-import com.example.graduation_project.service.UserService;
+import com.example.social_network.service.UserService;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;

@@ -1,6 +1,6 @@
-package com.example.graduation_project.service;
+package com.example.social_network.service;
 
-import com.example.graduation_project.entity.User;
+import com.example.social_network.entity.User;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -9,10 +9,12 @@ import org.springframework.util.StringUtils;
 
 @Service
 public class MailSenderService {
-    private final JavaMailSender mailSender;
+    private JavaMailSender mailSender;
 
     @Value("${spring.mail.username}")
     private String username;
+
+    MailSenderService(){}
 
     MailSenderService(JavaMailSender mailSender) {
         this.mailSender = mailSender;

@@ -1,4 +1,4 @@
-package com.example.graduation_project.aspects;
+package com.example.social_network.aspects;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

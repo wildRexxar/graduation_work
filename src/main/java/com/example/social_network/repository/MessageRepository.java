@@ -1,6 +1,6 @@
-package com.example.graduation_project.repository;
+package com.example.social_network.repository;
 
-import com.example.graduation_project.entity.Message;
+import com.example.social_network.entity.Message;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

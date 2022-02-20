@@ -1,6 +1,6 @@
-package com.example.graduation_project.service;
-import com.example.graduation_project.entity.Message;
-import com.example.graduation_project.repository.MessageRepository;
+package com.example.social_network.service;
+import com.example.social_network.entity.Message;
+import com.example.social_network.repository.MessageRepository;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

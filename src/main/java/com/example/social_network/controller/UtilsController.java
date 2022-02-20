@@ -1,4 +1,4 @@
-package com.example.graduation_project.controller;
+package com.example.social_network.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

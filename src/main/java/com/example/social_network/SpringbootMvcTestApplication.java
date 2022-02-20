@@ -1,4 +1,4 @@
-package com.example.graduation_project;
+package com.example.social_network;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

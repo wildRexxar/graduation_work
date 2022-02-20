@@ -1,4 +1,4 @@
-package com.example.graduation_project.entity;
+package com.example.social_network.entity;
 
 import org.springframework.security.core.GrantedAuthority;
 

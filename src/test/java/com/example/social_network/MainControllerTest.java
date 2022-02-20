@@ -3,7 +3,7 @@ package com.example.social_network;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
-import com.example.graduation_project.controller.MainController;
+import com.example.social_network.controller.MainController;
 import org.junit.jupiter.api.Test;
 
 import org.junit.runner.RunWith;
@@ -19,7 +19,6 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 @SpringBootTest
-@RunWith(SpringRunner.class)
 @AutoConfigureMockMvc
 @WithUserDetails("test2")
 @TestPropertySource("/application-test.properties")
@@ -29,6 +28,9 @@ public class MainControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
+
+    @Autowired
+    private MainController mainController;
 
     @Test
     public void mainPageTest() throws Exception {

@@ -1,4 +1,4 @@
-package com.example.graduation_project.configuration;
+package com.example.social_network.configuration;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

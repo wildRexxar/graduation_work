@@ -1,8 +1,8 @@
-package com.example.graduation_project.service;
+package com.example.social_network.service;
 
-import com.example.graduation_project.entity.Role;
-import com.example.graduation_project.entity.User;
-import com.example.graduation_project.repository.UserRepository;
+import com.example.social_network.entity.Role;
+import com.example.social_network.entity.User;
+import com.example.social_network.repository.UserRepository;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
